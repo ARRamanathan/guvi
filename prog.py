@@ -1,7 +1,7 @@
-num=input(a)
-if(num>0)
-	print('positive')
-if(num<0)
-	print('negative')
-if(num==0)
-	print('zero')
+num= input('')
+if int(num)>0:
+    print('positive')
+if int(num)<0:
+    print('negative')
+if int(num)==0:
+    print('zero')
