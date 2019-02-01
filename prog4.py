@@ -1,24 +1,12 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      Ramanathan AR
-#
-# Created:     10/01/2019
-# Copyright:   (c) Ramanathan AR 2019
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
 
-def main():
-    pass
-
-if __name__ == '__main__':
-    main()
-
-case= input('')
-alphabet = ['a','e','i','o','u','b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
-if case in alphabet:
-    print('Alphabet')
-
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
 else:
-    print('No')
+   largest = num3
+
+print(largest)
